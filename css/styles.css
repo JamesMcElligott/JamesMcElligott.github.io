@@ -6,9 +6,9 @@ body{
 }
 
 hr {
-background-color: #35495e;
+background-color: white;
 border-style:none;
-width: 100%;
+width: 50%;
 height:3px;
 }
 
@@ -33,13 +33,21 @@ h1{
   color: #35495e;
 }
 
+.personal{
+
+}
+
+
 .tube{
   border:4px;
   border-color: #35495e;
   border-style:solid;
+  margin:auto;
+
 }
 
 .Bio{
+  text-align: center;
   width: 700px;
   background-color: #ff7e67;
   border:4px;
@@ -55,15 +63,17 @@ h1{
 .column{
   float: left;
   width: 33.33%;
-  padding: 5px;
+  padding: 2px;
 }
 .profileImage{
+
   border:4px;
   border-color: #35495e;
   border-style: solid;
 }
 .row::after {
   content: "";
+  padding:2px;
   clear: both;
   display: table;
 }
